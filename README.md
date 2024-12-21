@@ -1,9 +1,11 @@
 <h1>ScaleSpoof</h1>
+
 ![ScaleSpoof Demo](https://github.com/user-attachments/assets/638f3a3b-6ff2-4720-b349-f67b6109ea42)
 
 <p>This is a .NET program that allows you to spoof your display scale/DPI on a per-application basis via .dll injection.</p>
 <p>In my experience this is most useful if you have a second monitor with a high pixel density that you have set to a higher scale (e.g. 150%), but you would still like your applications to render at 100% scale.</p>
 <p>Essentially, imagine this, but per-application instead of per-monitor:</p>
+
 ![Windows Settings: Display scale](https://github.com/user-attachments/assets/1b6085b8-6cef-4e54-a1ca-2c6b894f40de)
 
 <h2>Notes:</h2>
