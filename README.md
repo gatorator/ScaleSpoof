@@ -22,7 +22,7 @@
   <li>This program has not been thoroughly tested and there are no guarantees that it won't crash your application. (.dll injection is kind of inherently unsafe!)</li>
   <li>This only works on <b>DPI-aware</b> applications! It does not work on system-scaled applications.</li>
   <li>The program tries its best to tell your application to refresh its window with the new DPI, but in my experience it only works part of the time. You may need to drag your application's window between monitors to see any effects.</li>
-  <li>There is no way to unload the injected .dll from an application without restarting it.</li>
+  <li>There is currently no way to unload the injected .dll from an application without restarting it. (However, you can disable spoofed scaling!)</li>
 </ul>
 
 <p>As it stands I see this as more of a toy than a production-ready utility. <b>Don't blame me if you break something or corrupt your work!</b></p>
@@ -30,5 +30,7 @@
 <h2>Feature wishlist</h2>
 <ul>
   <li>Automatic application hooking (you give the program the filename of an application, it sits in your system tray and hooks that application on startup)</li>
-  <li>x86 support (2 .dlls required)</li>
+  <li>x86 support</li>
+  <li>System-rendered text scaling?</li>
+  <li>Proper window re-painting</li>
 </ul>
