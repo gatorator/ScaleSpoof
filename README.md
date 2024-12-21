@@ -25,7 +25,7 @@
   <li>There is currently no way to unload the injected .dll from an application without restarting it. (However, you can disable spoofed scaling!)</li>
 </ul>
 
-<p>As it stands I see this as more of a toy than a production-ready utility. <b>Don't blame me if you break something or corrupt your work!</b></p>
+<p>As it stands I see this as more of a toy than a production-ready utility. <b>Don't blame me if you break something or lose unsaved work!</b></p>
 
 <h2>Feature wishlist</h2>
 <ul>
