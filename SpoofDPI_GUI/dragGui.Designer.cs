@@ -31,6 +31,7 @@
             components = new System.ComponentModel.Container();
             ListViewGroup listViewGroup1 = new ListViewGroup("Enabled", HorizontalAlignment.Left);
             ListViewGroup listViewGroup2 = new ListViewGroup("Disabled", HorizontalAlignment.Left);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainWindow));
             selectDragImage = new PictureBox();
             dragTimer = new System.Windows.Forms.Timer(components);
             dragLabel = new Label();
@@ -216,6 +217,7 @@
             Controls.Add(scaleFactorGroupBox);
             Controls.Add(windowSelectorGroupBox);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "mainWindow";
             Text = "SpoofDPI";
             ((System.ComponentModel.ISupportInitialize)selectDragImage).EndInit();
