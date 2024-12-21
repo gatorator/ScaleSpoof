@@ -11,18 +11,18 @@
 <h2>Notes:</h2>
 <ul>
   <li>x86 applications are currently unsupported.</li>
-  <li>You must run the program as an administrator if you would like to spoof your DPI on privileged programs.</li>
+  <li>You must run the program as an administrator if you would like to spoof your DPI for privileged programs.</li>
 </ul>
 
 <h2>Caveats:</h2>
 <ul>
   <li>x86 applications are currently unsupported. (They will crash if you try to inject them!)</li>
   <li>Elements in the non-client area (rendered by the shell), such as menu bars and title bars, currently do not scale.</li>
-  <li>There is no guarantees that client-area elements will scale correctly either, especially GDI bitmaps/text or child windows.</li>
+  <li>There are no guarantees that client-area elements will scale correctly either, especially GDI bitmaps/text or child windows.</li>
   <li>This program has not been thoroughly tested and there are no guarantees that it won't crash your application. (.dll injection is kind of inherently unsafe!)</li>
   <li>This only works on <b>DPI-aware</b> applications! It does not work on system-scaled applications.</li>
-  <li>The program tries its best to tell your application to refresh its window with the new DPI, but in my experience it only works part of the time. You may need to drag your application's window between monitors to see any effects.</li>
-  <li>There is currently no way to unload the injected .dll from an application without restarting it. (However, you can disable spoofed scaling!)</li>
+  <li>The program tries its best to tell your application to refresh its window with the new DPI, but in my experience it only works for some programs. You may need to drag your application's window between monitors to see any effects.</li>
+  <li>There is currently no way to unload the injected .dll from an application without restarting it. (However, you can disable the effects of the program using the 'Disable' button!)</li>
 </ul>
 
 <p>As it stands I see this as more of a toy than a production-ready utility. <b>Don't blame me if you break something or lose unsaved work!</b></p>
