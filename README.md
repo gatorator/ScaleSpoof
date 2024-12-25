@@ -16,7 +16,7 @@
 
 <h2>Caveats:</h2>
 <ul>
-  <li>Since it uses dll injection, this program can trigger anti-virus software. This is a false positive.</li)
+  <li>Since it uses dll injection, this program can trigger anti-virus software. This is a false positive.</li>
   <li>x86 applications are currently unsupported. (They will crash if you try to inject them!)</li>
   <li>Elements in the non-client area (rendered by the shell), such as menu bars and title bars, currently do not scale.</li>
   <li>There are no guarantees that client-area elements will scale correctly either, especially GDI bitmaps/text or child windows.</li>
